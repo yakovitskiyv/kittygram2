@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles',  # Необходимо для swagger (по умолчанию включён)
+    'drf_yasg',
     'rest_framework',
     'corsheaders',
     'djoser',
